@@ -29,7 +29,7 @@ type ImageMessageContentPart =
 
 const IMAGE_MODEL_FALLBACKS = [
   appConfig.imageModel,
-  "google/gemini-2.5-flash-image-preview",
+  "google/gemini-3.1-flash-lite-image",
 ];
 const IMAGE_REQUEST_TIMEOUT_MS = 30_000;
 
