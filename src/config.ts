@@ -38,7 +38,7 @@ export const appConfig = {
   geminiApiKeys: envValuesByPrefix("GEMINI_API_KEY"),
   aiBaseUrl: requireEnv("ALABS_AI_BASE_URL"),
   textModel: "google/gemini-3-flash-lite",
-  geminiTextModel: "gemini-3.1-flash-lite",
+  geminiTextModel: "gemini-2.5-flash-lite",
   textMaxTokens: 550,
   textTemperature: 0.6,
   textTopP: 0.9,
