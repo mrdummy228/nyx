@@ -42,6 +42,6 @@ export const appConfig = {
   textMaxTokens: 550,
   textTemperature: 0.6,
   textTopP: 0.9,
-  imageModel: "google/gemini-3.1-flash-image-preview",
-  geminiImageModel: "gemini-2.5-flash-image-preview",
+  imageModel: "google/gemini-3.1-flash-image",
+  geminiImageModel: "gemini-3.1-flash-lite-image",
 };
